@@ -7,9 +7,9 @@ app.use(cors());
 //app.use(express.json()); // Middleware to parse JSON requests
 
 // Sample user details
-const user_id = "john_doe_17091999";
-const email = "john@xyz.com";
-const roll_number = "ABCD123";
+const user_id = "Shubhransu Boral";
+const email = "sk7994@srmist.edu.in";
+const roll_number = "RA2111003020157";
 
 // POST endpoint to process input data
 app.post('/bfhl',express.json(), (req, res) => {
